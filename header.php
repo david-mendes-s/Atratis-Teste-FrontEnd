@@ -50,7 +50,7 @@
             <div class="container">
 
                 <a href="#">
-                    <img src="<?php the_field('image_logo') ?>" id="logo-header" alt="atratis-logo">
+                    <img src="<?php echo get_template_directory_uri(  )?>/assets/atratis-logo.svg" id="logo-header" alt="atratis-logo">
                 </a>
 
                 <button class="navbar-toggler" id="menu-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

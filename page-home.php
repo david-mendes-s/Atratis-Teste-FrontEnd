@@ -261,96 +261,9 @@
 
     </section>
 
-    <section class="blog">
-        <div class="container">
-            <div class="row">
-                <div class="text">
-                    <div class="line"></div>
-                    <h4><?php the_field('titulo_section_blog');?></h4>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="list-blog">
-                        <div class="item-blog">
-                            <a href="<?php the_field('link_card_um_section_blog');?>">
-                                <div class="card-blog">
-                                    <div class="image">
-                                        <img src="<?php the_field('imagem_card_um_section_blog');?>" alt="<?php the_field('alt_imagem_card_um_section_blog');?>">
-                                    </div>
-                                    <div class="text">
-                                        <h5><?php the_field('titulo_card_um_section_blog');?></h5>
-                                        <p><?php the_field('texto_card_um_section_blog');?></p>
-                                    
-                                        <div class="button-align">
-                                            <button><?php the_field('texto_butao_card_um_section_blog');?></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item-blog">
-                            <a href="<?php the_field('link_card_dois_section_blog');?>">
-                                <div class="card-blog">
-                                    <div class="image">
-                                        <img src="<?php the_field('imagem_card_dois_section_blog');?>" alt="<?php the_field('alt_imagem_card_dois_section_blog');?>">
-                                    </div>
-                                    <div class="text">
-                                        <h5><?php the_field('titulo_card_dois_section_blog');?></h5>
-                                        <p><?php the_field('texto_card_dois_section_blog');?></p>
-                                    
-                                        <div class="button-align">
-                                            <button><?php the_field('texto_butao_card_um_section_blog');?></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item-blog">
-                            <a href="<?php the_field('link_card_tres_section_blog');?>">
-                                <div class="card-blog">
-                                    <div class="image">
-                                        <img src="<?php the_field('imagem_card_tres_section_blog');?>" alt="<?php the_field('alt_imagem_card_tres_section_blog');?>">
-                                    </div>
-                                    <div class="text">
-                                        <h5><?php the_field('titulo_card_tres_section_blog');?></h5>
-                                        <p><?php the_field('texto_card_tres_section_blog');?></p>
-                                    
-                                        <div class="button-align">
-                                            <button><?php the_field('texto_butao_card_um_section_blog');?></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="item-blog">
-                            <a href="<?php the_field('link_card_quatro_section_blog');?>">
-                                <div class="card-blog">
-                                    <div class="image">
-                                        <img src="<?php the_field('imagem_card_quatro_section_blog');?>" alt="<?php the_field('alt_imagem_card_quatro_section_blog');?>">
-                                    </div>
-                                    <div class="text">
-                                        <h5><?php the_field('titulo_card_quatro_section_blog');?></h5>
-                                        <p><?php the_field('texto_card_quatro_section_blog');?></p>
-                                    
-                                        <div class="button-align">
-                                            <button><?php the_field('texto_butao_card_um_section_blog');?></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
+    <!-- section blog -->
+    <?php include(get_template_directory() . '/includes/blog.php'); ?>
+   
     <section class="contact">
         <div class="container">
             <div class="row">

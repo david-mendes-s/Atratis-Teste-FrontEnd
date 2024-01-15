@@ -3,8 +3,8 @@
             <div class="row">
                 
                     <div class="logo-footer">
-                        <img src="<?php the_field('image_logo') ?>" id="logo-fotter" alt="logo atratis">
-                        <img src="<?php the_field('icon_logo_footer') ?>" id="icon-logo" alt="icone logo atratis">
+                        <img src="<?php echo get_template_directory_uri(  )?>/assets/atratis-logo.svg" id="logo-fotter" alt="logo atratis">
+                        <img src="<?php echo get_template_directory_uri(  )?>/assets/atratis 1.png" id="icon-logo" alt="icone logo atratis">
                     </div>
                 
             </div>

@@ -11,6 +11,7 @@
     remove_action('admin_print_styles', 'print_emoji_styles');
 
     add_theme_support('menus');
+    add_theme_support( 'post-thumbnails' );
 
     function registrar_menu_principal() {
         register_nav_menu('header-principal',__( 'Header Principal' ));
