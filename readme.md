@@ -21,7 +21,7 @@ Este projeto é uma implementação front-end que atende aos requisitos estabele
 **Clone o repositório para o seu ambiente local:**
 <br>
 ```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/david-mendes-s/Atratis-Teste-FrontEnd.git
 ```
 **Navegue até o diretório do projeto:**
 <br>
