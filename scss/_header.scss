@@ -1,0 +1,98 @@
+header {
+    .navbar {
+        padding-top: 29px;
+        
+        .container {
+            .align-nav {
+                width: 100%;
+                justify-content: flex-end;
+                align-items: center;
+                justify-content: flex-end;
+                position: relative;
+
+                a {
+                    color: $white;
+                    font-size: 14px;
+                    #logo-header {
+                        width: 182px;
+                        height: auto;
+                    }
+                }
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    gap: 15px;
+                    
+                    li {
+                        position: relative;
+                       
+                        a {
+                            
+                            &::after {
+                                content: "";
+                                width: 0%;
+                                height: 3px;
+                                position: absolute;
+                                background: linear-gradient(266deg, $orange 0%, $yellow 100%); ;
+                                border-radius: 4px;
+                                bottom: 0;
+                                left: 0;
+                                transition: 0.5s ease-in-out;
+                            }
+
+                            &:hover::after {
+                                width: 100%;
+                            }
+                        }
+
+                        
+                    }
+                }
+
+                .btn-principal {
+                    a {
+                        padding: 9px 30px;
+                        background: $orange; 
+                        border-radius: 38px; 
+                        color: #fff;
+                    
+                        font-size: 16px;
+                        font-weight: 500;
+                        transition: 0.2s;
+                        margin-left: 20px;
+
+                        &:hover {
+                            filter: brightness(0.95);
+                        }
+
+                        &:hover::after {
+                            width: 0%;
+                        }
+                    }
+                    
+                }
+           }
+        } 
+    }
+
+    
+        @media screen and (max-width: 990px) {
+
+            .navbar {
+                .container {
+                    .nav-backgraund-responsive {
+                        margin-top: 10px;
+                        background: $green;
+                        padding: 20px 0;
+                        border-radius: 10px;
+
+                        
+                    }
+                }
+            }
+            
+        }
+}

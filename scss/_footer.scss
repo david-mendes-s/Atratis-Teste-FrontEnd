@@ -1,0 +1,36 @@
+footer {
+    background: $green;
+    
+    .container {
+        .row {
+            .logo-footer{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 0;
+                
+                #logo-fotter {
+                    width: 160px;
+                    height: 40px;
+                }
+
+                #icon-logo {
+                    width: 23px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+        .container {
+            .row {
+
+                
+                    padding-left:  15px;
+                    padding-right: 15px;
+                
+            }
+        }
+    }
+}
